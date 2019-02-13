@@ -174,14 +174,14 @@ html {
 }
 .container header h1 {
   font-size: 1.9rem;
-  float: left;
+  margin-right: 50%;
 }
 .container header nav {
   display: flex;
   justify-content: space-between;
 }
 .container header nav img {
-  float: right;
+  margin-left: 50%;
 }
 .container .main-image {
   position: relative;
@@ -332,7 +332,7 @@ footer p {
   }
 }
 .second-container .middle-content .middle-content-paragraph {
-  line-height: 1.4;
+  line-height: 1.5;
   margin-top: 4%;
   display: flex;
   flex-direction: column;
@@ -348,8 +348,9 @@ footer p {
   }
 }
 .second-container .middle-content .middle-content-paragraph p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-right: 16%;
+  line-height: 1.5;
 }
 @media (max-width: 414px) {
   .second-container .middle-content .middle-content-paragraph p {
@@ -358,7 +359,7 @@ footer p {
     margin: 0 auto;
     margin-bottom: 5%;
     margin-top: 5%;
-    line-height: 2;
+    line-height: 1.5;
   }
 }
 .second-container .middle-content .middle-content-paragraph p button {
@@ -388,7 +389,7 @@ footer p {
   }
 }
 .future-design .future-content {
-  line-height: 1.4;
+  line-height: 1.5;
   margin-top: 4%;
   display: flex;
   flex-direction: column;
@@ -405,9 +406,9 @@ footer p {
   }
 }
 .future-design .future-content p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-left: 16%;
-  line-height: 2;
+  line-height: 1.5;
 }
 @media (max-width: 414px) {
   .future-design .future-content p {
@@ -463,15 +464,15 @@ footer p {
   }
 }
 @media (max-width: 414px) {
-  .recent-projects-image1 {
+  .desktop-image {
     display: none;
   }
 }
-.recent-projects-image2 {
+.mobile-image {
   display: none;
 }
 @media (max-width: 414px) {
-  .recent-projects-image2 {
+  .mobile-image {
     display: block;
   }
 }
@@ -516,12 +517,12 @@ footer p {
 .para-villas p,
 .para-outskirts p,
 .para-blocks p {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   width: 39%;
   display: block;
   margin: 0 auto;
   margin-bottom: 2%;
-  line-height: 2.5;
+  line-height: 1.5;
 }
 @media (max-width: 414px) {
   .para-villas p,
