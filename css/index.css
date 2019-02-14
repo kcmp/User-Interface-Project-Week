@@ -200,13 +200,20 @@ html {
   bottom: 23%;
   font-size: 4rem;
 }
-.container .header-style {
+.container .title-style {
   background-color: #99A4AF;
   position: fixed;
   z-index: 1;
   width: 100%;
   max-width: 1000px;
-  top: -50px;
+  top: -5.5%;
+}
+@media (max-width: 414px) {
+  .container .title-style {
+    top: -1.25%;
+    x-overflow: hidden;
+    width: 100%;
+  }
 }
 .show-div {
   display: none;
@@ -306,7 +313,7 @@ footer p {
   .main-image {
     margin-top: -5%;
     display: block;
-    margin-right: 3.4%;
+    margin: 0;
   }
 }
 .second-container {

@@ -4,22 +4,27 @@
     z-index: 1;
     width: 100%;
     max-width: 1000px;
-    top: -50px;
+    top: -5.5%;
+     @media (max-width: 414px) {
+      top: -1.25%;
+      x-overflow: hidden;
+      width: 100%;
+   }
 }
 
- .colorNav() {
+  .colorNav() {
     margin-top: 5%;
     margin-right: 10%;
     color: #FFFFFF;
 }
 
- .colorNavSecondary(){
+  .colorNavSecondary(){
     margin-top: 5%;
     margin-left: 10%;
     color: #FFFFFF;
 }
 
- .navStyle() {
+  .menu() {
         width: 100%;
         height: 580px;
         display: flex;
@@ -29,21 +34,21 @@
         font-size: 4.2rem;
        }
 
- .check(){
+  .check(){
     width: 100%;
     display: flex;
     justify-content: space-between;
     font-size: 2rem;
 }
 
- .expandStyle(){
+  .expandStyle(){
     display: none;
     max-width: 1090px;
     margin: 0 auto;
     background-color: #99A4AF;
 }
 
- header{
+  header{
     @media(max-width:414px){
         position:fixed;
         z-index: 1;
