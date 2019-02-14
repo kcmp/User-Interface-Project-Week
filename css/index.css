@@ -173,7 +173,7 @@ html {
   margin-top: 3%;
 }
 .container header h1 {
-  font-size: 1.9rem;
+  font-size: 2.6rem;
   margin-right: 50%;
 }
 .container header nav {
@@ -214,6 +214,9 @@ html {
     x-overflow: hidden;
     width: 100%;
   }
+}
+.container .title-style h1 {
+  font-size: 2.6rem;
 }
 .show-div {
   display: none;
@@ -642,10 +645,8 @@ button:hover {
 }
 @media (max-width: 414px) {
   img {
-    margin-top: 12%;
-    margin-bottom: 5%;
-    width: 96%;
-    margin-left: 2%;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 .flex-title {
@@ -655,53 +656,6 @@ button:hover {
 .container {
   max-width: 1040px;
   margin: 0 auto;
-}
-.container {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-}
-.container header {
-  color: #FFFFFF;
-  background-color: #c1d0f0;
-  padding: 1% 0% 1% 0%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 3%;
-}
-.container header h1 {
-  font-size: 1.8rem;
-  margin-left: 6%;
-}
-.container header nav {
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-}
-.container header nav img {
-  margin-left: 72%;
-}
-.container header nav a {
-  display: none;
-  font-size: 1.5rem;
-  text-decoration: none;
-}
-.container .main-image {
-  position: relative;
-}
-.container .main-image img {
-  display: block;
-  width: 100%;
-  background-size: cover;
-  height: auto;
-}
-.container .main-image h1 {
-  color: #FFFFFF;
-  font-weight: bold;
-  position: absolute;
-  left: 8%;
-  bottom: 23%;
-  font-size: 3rem;
 }
 .flex-container {
   margin-top: 5%;
