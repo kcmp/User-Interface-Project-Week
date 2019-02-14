@@ -257,7 +257,10 @@ html {
   text-decoration: none;
 }
 .show-div nav a:hover {
-  color: gray;
+  color: teal;
+  text-decoration-line: underline;
+  font-size: 4.8rem;
+  font-weight: bold;
 }
 .close {
   cursor: pointer;

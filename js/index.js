@@ -17,7 +17,16 @@ window.addEventListener('load', function () {
      showDiv.style.display = "none";
      container.style.display = "block";
   
-     })
-  
-  
+     })  
    })
+
+   //highlight feature for navbar
+const link = document.querySelectorAll('nav a');
+for(i=0;i<link.length;i++){
+	link[i].addEventListener('mouseenter',function(event){
+		event.target.style.color = teal;
+	})
+	link[i].addEventListener('mouseout', function(event){
+		event.target.style.color = white;
+	})
+}
