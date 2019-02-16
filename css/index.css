@@ -450,7 +450,6 @@ footer p {
   padding: 3%;
   display: block;
   width: 35%;
-  border: 1px solid black;
 }
 @media (max-width: 414px) {
   .future-design .future-content p button {
