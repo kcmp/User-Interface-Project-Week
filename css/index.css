@@ -201,6 +201,7 @@ html {
   position: sticky;
   top: 0;
   z-index: 9999;
+  cursor: pointer;
 }
 @media only screen and (max-width: 414px) {
   .header-container {
