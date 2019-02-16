@@ -4,8 +4,9 @@
     @media @mobile {
         width: 100%;
     } 
-    .full-width-center();
+    // .full-width-center();
     display: none;
+    width: 100%;
     background-color: @nav-bg;
     position: sticky;
     top: 0;
@@ -18,11 +19,18 @@
         width: 90%;
     }
     .flex-justify(space-between);
-    .mid-width-center();
+    width: 100%;
     font-size: @font-large;
     font-weight: @bold;
     color: @white;
     padding: 1.3rem;
+    align-items: baseline;
+    
+
+    .hamburger {
+        padding: 0;
+        align-content: flex-end;
+    }
 }
 
 

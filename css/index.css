@@ -163,8 +163,7 @@ html {
   display: flex;
   justify-content: space-around;
   margin-top: 3%;
-  width: 102.4rem;
-  margin: 0 auto;
+  width: 100%;
 }
 .container header h1 {
   font-size: 4.2rem;
@@ -180,7 +179,6 @@ html {
   position: relative;
 }
 .container .main-image img {
-  display: block;
   width: 100%;
   background-size: cover;
   height: auto;
@@ -194,9 +192,8 @@ html {
   font-size: 4rem;
 }
 .header-container {
-  width: 102.4rem;
-  margin: 0 auto;
   display: none;
+  width: 100%;
   background-color: #97A2AD;
   position: sticky;
   top: 0;
@@ -211,17 +208,21 @@ html {
 .nav-items {
   display: flex;
   justify-content: space-between;
-  width: 86rem;
-  margin: 0 auto;
+  width: 100%;
   font-size: 2.4rem;
   font-weight: bold;
   color: #fff;
   padding: 1.3rem;
+  align-items: baseline;
 }
 @media only screen and (max-width: 414px) {
   .nav-items {
     width: 90%;
   }
+}
+.nav-items .hamburger {
+  padding: 0;
+  align-content: flex-end;
 }
 .expanded-nav {
   display: none;
@@ -320,14 +321,18 @@ footer p {
   font-size: 1.4rem;
 }
 .main-image {
-  width: 102.4rem;
-  margin: 0 auto;
+  width: 100%;
+}
+.main-image .mobile-image {
+  display: none;
 }
 @media (max-width: 414px) {
   .main-image {
-    margin-top: -5%;
     display: block;
     margin: 0;
+  }
+  .main-image .mobile-image {
+    display: block;
   }
 }
 .second-container {
