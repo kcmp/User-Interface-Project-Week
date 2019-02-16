@@ -14,32 +14,44 @@
 </head>
 
 <body>
-  <div class="show-div">
-    <div class="check">
-      <h1>S&J</h1>
-      <p class="close">X</p>
-    </div>
-    <nav class="menu">
-      <a href="index.html">Home</a>
-      <a href="services.html" >Services</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </div>
   <div class="container">
-    <header class="title-style">
-      <h1 class="main-title">S&J</h1>
-      <nav>
-        <img class="icon" id="icon-hover" src="img/nav-hamburger.png">
-      </nav>
-    </header>
+
+  <!---NAV CONTENT -->
+	<div class="header-container nav show">
+      <div class="nav-items">
+        <div class="heading">
+          <h1>S&J</h1>
+        </div>                          
+        <div class="hamburger">
+          <img src="/img/nav-hamburger.png" alt="open menu button" class="menu-nav" id="hamburger">
+        </div>
+      </div>
+    </div> 
+
+    <!---EXPANDED NAVIGATION-->                          
+    <div class="expanded-nav nav">
+      <div class="nav-items">
+        <div class="heading">
+          <h1>S&J</h1>
+        </div>                              
+        <div class="hamburger">
+          <img src="/img/nav-hamburger-close.png" alt="close menu button" class="menu-nav" id="close">
+        </div>
+      </div>                          
+      <div class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./services.html">Services</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </div>
+
+    <!-- home page content -->
     <div class="main-image"><img src="./img/home/home-jumbotron.png" />
       <h1> Integrity,<br>
         Excellence,<br>
         Progress.</h1>
     </div>
-    <p class="main-para">
-      
-    </p>
+    
     <div class="second-container">
       <section class="middle-content">
         <div class="middle-content-paragraph">
@@ -134,6 +146,8 @@
           <input type="text" placeholder="Enter email" />
           <p>We'll never share your email with anyone else.</p>
         </div>
+
+        <!-- footer -->
 
         <div>
           <h4>New York</h4>
