@@ -11,11 +11,11 @@ window.addEventListener('load', function () {
   container.style.display = "none";
    })
 
-    close = document.querySelector(".close");
-   close.addEventListener("click", function () {
-   icon.style.display = "block";
-   showDiv.style.display = "none";
-   container.style.display = "block";
+  close = document.querySelector(".close");
+  close.addEventListener("click", function () {
+  icon.style.display = "block";
+  showDiv.style.display = "none";
+  container.style.display = "block";
 
     })
 
