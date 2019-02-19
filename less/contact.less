@@ -19,18 +19,33 @@ h2 {
     // font-weight: bold;
 }
 
- input[type=radio]{
-    // margin-top: 5%;
-    padding: 1% 1%;
-    // width: 23%;
+.contact-type {
     font-size: @font-xsmall;
+    display: flex;
+    flex-direction: column;
 
-    p {
+    input[type=radio]{
+        // margin-top: 5%;
+        padding: 1% 1%;
+        // width: 23%;
         font-size: @font-xsmall;
+        display: flex;
+        flex: column;
+    
+        p {
+            font-size: @font-xsmall;
+            display: flex;
+            flex: column;
+        }
+    
+    button {
+        .button-border();
     }
 }
 
-.get-touch button {
+}
+
+ .get-touch button {
     .button-border();
 }
 

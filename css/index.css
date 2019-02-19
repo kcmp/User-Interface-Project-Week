@@ -751,12 +751,29 @@ h2 {
   margin-top: 5%;
   font-size: 1.8rem;
 }
-input[type=radio] {
+.contact-type {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.contact-type input[type=radio] {
   padding: 1% 1%;
   font-size: 1.4rem;
+  display: flex;
+  flex: column;
 }
-input[type=radio] p {
+.contact-type input[type=radio] p {
   font-size: 1.4rem;
+  display: flex;
+  flex: column;
+}
+.contact-type input[type=radio] button {
+  border: solid 1px #222;
+  padding: 3%;
+  display: block;
+  background-color: #FFFFFF;
+  margin-top: 4%;
+  width: 33%;
 }
 .get-touch button {
   border: solid 1px #222;
