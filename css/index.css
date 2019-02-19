@@ -162,7 +162,6 @@ html {
   padding: 1% 0% 1% 0%;
   display: flex;
   justify-content: space-around;
-  margin-top: 3%;
   width: 100%;
 }
 .container header h1 {
@@ -212,7 +211,7 @@ html {
   font-size: 2.4rem;
   font-weight: bold;
   color: #fff;
-  padding: 1.3rem;
+  padding: 0 10%;
   align-items: baseline;
 }
 @media only screen and (max-width: 414px) {
@@ -544,7 +543,7 @@ footer p {
 .para-outskirts p,
 .para-blocks p {
   font-size: 1.6rem;
-  width: 39%;
+  width: 60%;
   display: block;
   margin: 0 auto;
   margin-bottom: 2%;
