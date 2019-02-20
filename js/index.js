@@ -42,3 +42,6 @@ class ToggleMenu {
 }
 
 const navs = document.querySelectorAll('.nav').forEach( navs => new ToggleMenu(navs));
+
+TweenMax.from('.nav', 1.5, {height: 0, opacity: 0});
+TweenMax.from('.expanded-nav show', 5, {y:0, opacity:.9, scale:0, ease:Bouce.easeOut});
