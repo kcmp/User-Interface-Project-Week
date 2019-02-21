@@ -38,7 +38,7 @@ class ToggleMenu {
 
       Array.from(navs).forEach(element => element.classList.toggle('show'));
       TweenMax.from(".header", 0.5, {height: 0, opacity: 0});
-      // TweenMax.staggerFrom(".header-container nav", 1, {y:1000, delay:1}, 0.2);
+      TweenMax.staggerFrom(".header-container nav", 1, {y:1000, delay:1}, 0.2);
   }
 
 }
@@ -46,4 +46,4 @@ class ToggleMenu {
 const navs = document.querySelectorAll('.nav').forEach( navs => new ToggleMenu(navs));
 
 TweenMax.from('.nav', 1.5, {height: 0, opacity: 0});
-// TweenMax.from('header', 5, {height:0, opacity:.9, scale:0, ease:Bouce.easeOut});
+TweenMax.from('header', 5, {height:0, opacity:.9, scale:0, ease:Bouce.easeOut});
