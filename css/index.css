@@ -677,6 +677,23 @@ button:hover {
   max-width: 1040px;
   margin: 0 auto;
 }
+.main-image {
+  position: relative;
+}
+.main-image img {
+  display: block;
+  width: 100%;
+  background-size: cover;
+  height: auto;
+}
+.main-image h1 {
+  color: #FFFFFF;
+  font-weight: bold;
+  position: absolute;
+  left: 8%;
+  bottom: 23%;
+  font-size: 3rem;
+}
 .service-footer {
   margin-top: 5%;
 }
@@ -813,6 +830,10 @@ div.ad h4 {
   margin-left: 5%;
   margin-top: -10%;
   line-height: 7.5rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  position: absolute;
+  font-size: 2.8rem;
 }
 @media only screen and (max-width: 768px) {
   .about-container .about-header .about-jumbo-img-tag {
@@ -902,4 +923,97 @@ div.ad h4 {
 }
 .about-container .about-tabs-link-selected h4 {
   text-align: center;
+}
+.projects-container img {
+  width: 100%;
+  max-width: 1040px;
+  height: 350px;
+}
+.projects-container h1 {
+  font-size: 2.4rem;
+}
+.projects-container h4 {
+  font-size: 1.8rem;
+}
+.projects-container p {
+  line-height: 1.5;
+  font-size: 1.4rem;
+}
+.projects-container .carousel img {
+  display: none;
+}
+.projects-container .carousel .active-img {
+  width: 100%;
+  display: flex;
+  height: 500px;
+  overflow: hidden;
+  object-fit: cover;
+}
+@media only screen and (max-width: 414px) {
+  .projects-container .carousel .active-img {
+    height: 250px;
+  }
+}
+.projects-container .carousel .jumbo-img-tag {
+  vertical-align: super;
+  z-index: 1;
+  margin-left: 5%;
+  margin-top: -10%;
+  line-height: 7.5rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  position: absolute;
+  font-size: 2.8rem;
+}
+@media only screen and (max-width: 768px) {
+  .projects-container .carousel .jumbo-img-tag {
+    margin-top: -15%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .projects-container .carousel .jumbo-img-tag {
+    margin-top: -22%;
+  }
+}
+.projects-container .projects-blurb {
+  display: flex;
+  padding-top: 7%;
+  padding-left: 6%;
+  padding-right: 5%;
+  padding-bottom: 4%;
+  align-content: justify;
+}
+.projects-container .projects-blurb p {
+  display: none;
+}
+.projects-container .projects-blurb .active-paragraph {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+}
+@media only screen and (max-width: 414px) {
+  .projects-container .projects-blurb .active-paragraph {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+.projects-container .projects-blurb .left-button {
+  font-size: 6.8rem;
+  cursor: pointer;
+  color: #828282;
+}
+@media only screen and (max-width: 414px) {
+  .projects-container .projects-blurb .left-button {
+    font-size: 4.6rem;
+  }
+}
+.projects-container .projects-blurb .right-button {
+  font-size: 6.8rem;
+  cursor: pointer;
+  color: #828282;
+}
+@media only screen and (max-width: 414px) {
+  .projects-container .projects-blurb .right-button {
+    font-size: 4.6rem;
+  }
 }
