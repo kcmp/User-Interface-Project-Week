@@ -181,6 +181,11 @@ img {
 .container .main-image {
   position: relative;
 }
+@media (max-width: 414px) {
+  .container .main-image .desktop-image {
+    display: none;
+  }
+}
 .container .main-image img {
   width: 100%;
   background-size: cover;

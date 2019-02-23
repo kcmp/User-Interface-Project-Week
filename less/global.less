@@ -59,12 +59,19 @@ img {
 
      .main-image {
         position: relative;
+        
+        .desktop-image {
+            @media(max-width:414px){
+                display: none;
+            } 
+        }
 
          img {
             // display: block;
             width: 100%;
             background-size: cover;
             height: auto;
+            
             
         }
 
